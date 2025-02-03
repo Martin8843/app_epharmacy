@@ -9,6 +9,20 @@ Folder zawiera dokumentację techniczną i użytkową projektu `app_epharmacy`.
 
 - `docs/`: Dokumentacja projektu.
   - `architecture/`: Dokumentacja architektury systemu.
+	- `data_model/`: Szczegółowy opis struktury danych, w tym definicje tabel, kolumn, typów danych i kluczy. 
   - `pl_sql_modules/`: Opis modułów PL/SQL.
   - `utilities/`: Opis narzędzi pomocniczych.
   - `deployment/`: Instrukcje dotyczące wdrażania aplikacji.
+- `database/`: Przechowuje skrypty, dane testowe oraz moduły PL/SQL, co jest niezbędne do prawidłowego funkcjonowania aplikacji.
+  - `schema/`: Zawiera skrypty związane z tworzeniem i konfiguracją schematu bazy danych. 
+	- `ddl/`: Podfolder zawierający skrypty DDL (Data Definition Language) do tworzenia obiektów bazy danych. 
+  - `pl_sql_modules/`: Zawiera moduły PL/SQL, takie jak pakiety, procedury i funkcje. 
+  - `test_data/`: Zawiera skrypty do wypełniania tabel przykładowymi danymi testowymi. 
+- `apex/`: Przechowuje komponenty aplikacji.
+  - `applications/`: Zawiera skrypty eksportujące definicje aplikacji APEX.  
+  - `static_files/`: Zawiera pliki statyczne wykorzystywane w aplikacji.  
+  - `plugins/`: Zawiera skrypty definiujące niestandardowe pluginy dla aplikacji APEX.
+- `utilities/`: Zawiera skrypty pomocnicze wspierające logikę biznesową aplikacji.
+
+ 
+  
