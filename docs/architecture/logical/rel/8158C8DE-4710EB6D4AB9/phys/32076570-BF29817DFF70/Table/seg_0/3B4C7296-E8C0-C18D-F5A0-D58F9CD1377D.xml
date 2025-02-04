@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="addresses" directorySegmentName="seg_0" id="3B4C7296-E8C0-C18D-F5A0-D58F9CD1377D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="country" id="11DBFF9C-5372-9EE3-C124-3AEC195E2A88">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address_id" id="25724196-5C67-7DBA-63FB-F76EAEE4B5C6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="7D82A182-38B8-87B1-A350-95770C1961C6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="house_no" id="94B2EDB4-8854-F469-D202-2991DD730962">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="st_name" id="B29CB7B9-47BF-D139-A3FF-F682841460BD">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="C9AA8BB4-5B4D-7FE7-FB9D-C6AC8EF18169">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="post_code" id="EACDBD5D-8D83-830F-F735-4B0D9E64CD0D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_addresses_userid" id="02462AAC-DA06-9D20-8D77-C6DAC96C5D8A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_addresses_postalcode" id="F55A980D-388D-38FA-8010-4604213723ED">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="addresses_users_FK" id="A8F51496-1ACB-98C2-4EB3-2EE32753B61A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="addresses_PK" id="1706F775-BADE-A9E9-781A-02F6CD5382A2">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="chk_addresses_country" id="639324A2-C892-A144-DC12-175C182E3EE9">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_addresses_house_no" id="B08CE264-2BCD-36BF-2D15-A15A8535BD43">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_addresses_city" id="F430F1F5-8A7C-3D26-09FC-A05D661E8076">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_addresses_stname" id="F53F9714-DB79-835F-0D79-484F0C935758">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="address_per_user_UN" id="42C5CD2D-D5D2-4041-14CE-F5B1D9B4C467">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

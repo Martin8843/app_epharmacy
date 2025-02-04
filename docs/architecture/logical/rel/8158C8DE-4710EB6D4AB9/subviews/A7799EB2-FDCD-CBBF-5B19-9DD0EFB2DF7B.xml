@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Logical - SubView_1" id="A7799EB2-FDCD-CBBF-5B19-9DD0EFB2DF7B">
+<createdBy>neras</createdBy>
+<modifiedBy>neras</modifiedBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>663EA8E1-7364-0701-5761-2055751203A7</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="50A7D742-927C-5E77-DED1-7520CC98A7A5" otype="Table" vid="1487A8DC-B66D-CE3F-BD37-F6283305439B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="49" y="39" width="115" height="167"/>
+<generatorID>7D7CAA72-BB59-BD5E-12E9-A274868D9A83</generatorID>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-103</backgroundColor>
+<foregroundColor>-13434625</foregroundColor>
+</OView>
+</objectViews>
+</Diagram>

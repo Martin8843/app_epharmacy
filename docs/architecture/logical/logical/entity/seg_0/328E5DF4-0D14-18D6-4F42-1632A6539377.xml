@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="328E5DF4-0D14-18D6-4F42-1632A6539377" name="users">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:10:09 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="669C0CB8-759F-912A-E81E-40E461EA819F">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-05 12:09:56 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="76B1A2DD-9E27-E48E-8AE7-2D0079999AF9">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:10:34 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="B123FF26-EF99-E832-409A-2B544E57849D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:12:24 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="B7773F94-E8F9-80F6-B29D-F176ECFA85E7">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:12:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="503E1334-5C0B-406C-508C-5C33AD10B570">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:17:17 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="644FA945-B78E-D738-D427-30FB1A04DBA1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:24:35 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_date" id="07D5DBB6-68D7-80A7-64BA-A2CA2892A94E">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:24:47 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="account_status" id="D8045C2E-6260-50CA-C91E-D301FCE2D2E6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:40:55 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="role" id="02303723-8ABD-0777-DEF7-86114C81C1F8">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 20:31:57 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45D27920-4E1A-6BCC-6522-53AC5F776089" name="pk_users">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:10:26 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>669C0CB8-759F-912A-E81E-40E461EA819F</newElementsIDs>
+<usedAttributes>
+<attributeRef>669C0CB8-759F-912A-E81E-40E461EA819F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="222EC9E1-66DD-252E-4316-3ABEA5245D9A" name="uq_users_phone_email_passrd">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 15:02:39 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="8158C8DE-306C-8095-8FDA-4710EB6D4AB9" value="true"/>
+</engineerTo>
+<newElementsIDs>B7773F94-E8F9-80F6-B29D-F176ECFA85E7,503E1334-5C0B-406C-508C-5C33AD10B570,644FA945-B78E-D738-D427-30FB1A04DBA1</newElementsIDs>
+<usedAttributes>
+<attributeRef>B7773F94-E8F9-80F6-B29D-F176ECFA85E7</attributeRef>
+<attributeRef>503E1334-5C0B-406C-508C-5C33AD10B570</attributeRef>
+<attributeRef>644FA945-B78E-D738-D427-30FB1A04DBA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

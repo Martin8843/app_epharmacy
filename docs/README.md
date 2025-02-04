@@ -8,21 +8,30 @@ Folder zawiera dokumentację techniczną i użytkową projektu `app_epharmacy`.
 ## Struktura katalogów
 
 - `docs/`: Dokumentacja projektu.
-  - `architecture/`: Dokumentacja architektury systemu.
+  - `architecture/`: Dokumentacja architektury systemu, przechowuje m.in. diagram relacji encji.
 	- `data_model/`: Szczegółowy opis struktury danych, w tym definicje tabel, kolumn, typów danych i kluczy. 
-  - `pl_sql_modules/`: Opis modułów PL/SQL.
-  - `utilities/`: Opis narzędzi pomocniczych.
-  - `deployment/`: Instrukcje dotyczące wdrażania aplikacji.
-- `database/`: Przechowuje skrypty, dane testowe oraz moduły PL/SQL, co jest niezbędne do prawidłowego funkcjonowania aplikacji.
-  - `schema/`: Zawiera skrypty związane z tworzeniem i konfiguracją schematu bazy danych. 
-	- `ddl/`: Podfolder zawierający skrypty DDL (Data Definition Language) do tworzenia obiektów bazy danych. 
-  - `pl_sql_modules/`: Zawiera moduły PL/SQL, takie jak pakiety, procedury i funkcje. 
-  - `test_data/`: Zawiera skrypty do wypełniania tabel przykładowymi danymi testowymi. 
+  - `database/schemas/epharmacy/`: Dokumentacja bazy danych(schematy, opis tabel, funkcji, procedur składowanych).  
+  	- `constraints/`: Opis ograniczeń w bazie danych, które zapewniają integralność i spójność. 
+  	- `functions/`: Dokumentacja funkcji (zastosowanie, zwracane wartości) 
+  	- `indexes/`: Opisy indeksów i ich wpływu na wydajność. 
+  	- `packages/`: Opisy pakietów PL/SQL (zawartość, interfejsy). 
+  	- `procedures/`: Opisy procedur (parametry, działanie). 
+  	- `sequences/`: Opis sekwencji (jeżeli istnieją) 
+  	- `tables/`:  Opisy tabel (struktura, kolumny, zależności).  
+  	- `triggers/`: Dokumentacja triggerów (kiedy i dlaczego są używane). 
+  	- `views/`: Opisy widoków i ich zastosowania. 
+  - `deployment_apex/`: Instrukcje dotyczące wdrażania aplikacji (m.in. integracja z Oracle APEX – ORDS).
+- `database/schemas/epharmacy/`: Przechowuje skrypty, dane testowe oraz moduły PL/SQL, co jest niezbędne do prawidłowego funkcjonowania aplikacji.
+  	- `constraints/`: Skrypty dla kluczy obcych i ograniczeń. 
+  	- `functions/`: Funkcje PL/SQL (CREATE FUNCTION). 
+  	- `indexes/`: Skrypty dla indeksów (CREATE INDEX). 
+  	-  (...)    : Skrypty dla pozostałych obiektów bazy danych.
+  - `test_data/`: Zawiera skrypty do wypełniania tabel przykładowymi danymi testowymi.
+  - `utilities/`: Zawiera skrypty pomocnicze wspierające działanie bazy danych (obsługa logów, funkcje szyfrowania) .  
 - `apex/`: Przechowuje komponenty aplikacji.
   - `applications/`: Zawiera skrypty eksportujące definicje aplikacji APEX.  
   - `static_files/`: Zawiera pliki statyczne wykorzystywane w aplikacji.  
   - `plugins/`: Zawiera skrypty definiujące niestandardowe pluginy dla aplikacji APEX.
-- `utilities/`: Zawiera skrypty pomocnicze wspierające logikę biznesową aplikacji.
 
  
   

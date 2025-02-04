@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEE71E0B-E115-0D47-259F-74A477602520" name="addresses">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:45:27 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_id" id="1E67C22B-7EA1-24F2-E5E2-2E2F593C27BD">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:45:56 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="12B5C522-1891-94EE-F3C1-AE57474174DB">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-05 12:10:10 UTC</createdTime>
+<generatorID>4F86548B-0454-B8CE-4100-D505A8BA486E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<referedAttribute>669C0CB8-759F-912A-E81E-40E461EA819F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="C0B9CE97-F238-A834-0AF4-6A50B9D66B6F">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:47:49 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="13E38D47-FE4C-1AC5-D933-39A5F46AD0B2">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:47:39 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="post_code" id="84952170-4F45-4625-6E88-FBA5BA2DD8D1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:48:05 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_name" id="B7E4AEF7-2CA4-8AAA-1BBA-1EDDD5C352C1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:52:48 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="house_no" id="2D585F02-42A5-C212-B978-12D8A5DCAA4C">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:48:54 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91694C28-703E-EB33-5624-F2BD2EC9356A" name="pk_addresses">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-03 11:46:04 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="7149825B-2696-EEAB-F780-25D49A76C17A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1E67C22B-7EA1-24F2-E5E2-2E2F593C27BD</newElementsIDs>
+<usedAttributes>
+<attributeRef>1E67C22B-7EA1-24F2-E5E2-2E2F593C27BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
