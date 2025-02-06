@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF104301-FDD5-7C7A-EC23-FFB8199E87DE" name="payments">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<comment><![CDATA[The payments table stores payment information for orders. It includes payment_id, order_id, payment_date, amount, payment_method (e.g., credit card, blik), and payment_status]]></comment>
+<generatorID>8F63D0E3-B95A-43CE-1A8F-ABC6E93B3294</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="88073AEF-37B0-2DBE-4E4A-EA265E5EB575">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>68FB4351-A0D5-BD41-0B72-08BB0F4F64D6</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementStartWith>100</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>0</autoIncrementCache>
+<autoIncrementSequenceName>payments_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="order_id" id="32761D7E-CA18-3310-0198-A4825FF14E67">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-08 22:30:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B945AF9B-98FD-092C-0243-8271692C229E" referredColumn="C12DA4B9-4B99-A5B1-124B-E0F7E8CC6780"/>
+</associations>
+</Column>
+<Column name="payment_date" id="141FDABA-C2AD-9EBF-8AAB-A752C7275B9A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>3DF8A494-23A3-7640-050B-72962B539DCF</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>payments_date_default</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_status" id="DFE0F1AD-6DD2-3EC8-C171-F1153F6F1281">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>7FEC0697-3211-3DCC-5A50-67F7F2A5532B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>payments_status_default</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<defaultValue>PENDING</defaultValue>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="7FFB483A-A059-3568-DC0C-7CBD324A3588">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>46090F46-1F0B-0511-6F5B-93AC2F5CC078</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="157217DB-1F12-DC81-BA4F-2B1F9D1CBB21" name="payments_PK">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>A9C02D7E-C98D-8E5B-FE97-C70EB9ED54D6</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88073AEF-37B0-2DBE-4E4A-EA265E5EB575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC5555A-4FEC-A848-1413-AE8601799382" name="idx_payments_orderid">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 15:24:55 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32761D7E-CA18-3310-0198-A4825FF14E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D33219DA-5AFD-1736-948F-05A64F10DD67" name="idx_payments_status">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 15:25:38 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFE0F1AD-6DD2-3EC8-C171-F1153F6F1281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1961C34E-F362-E4D4-4DBB-F0E3A4EED00F" name="payments_orders_FK">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-08 22:35:20 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32761D7E-CA18-3310-0198-A4825FF14E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_payments_method" directorySegmentName="seg_0" id="B6595870-F072-CDDB-D603-0E6D183B810B">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 19:43:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(payment_method IN ('CREDIT_CARD', 'BLIK', 'BANK_TRANSFER', 'CASH ON DELIVERY'))]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_payments_status" directorySegmentName="seg_0" id="738A0C76-ED9B-D064-D923-BE9C6207F682">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 19:45:27 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(payment_status IN ('PENDING', 'COMPLETED', 'FAILED', 'REFUNDED'))]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

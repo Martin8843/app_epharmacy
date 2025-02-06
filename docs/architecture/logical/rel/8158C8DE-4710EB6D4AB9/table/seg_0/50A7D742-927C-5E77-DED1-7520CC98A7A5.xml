@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50A7D742-927C-5E77-DED1-7520CC98A7A5" name="users">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<comment><![CDATA[This table stores information about the users of the application, such as customers and possibly pharmacy staff. It includes columns like user_id, username, email, password, role (e.g., clients, admin).]]></comment>
+<generatorID>328E5DF4-0D14-18D6-4F42-1632A6539377</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="6C30E709-D23D-A4F3-A3AB-1E85B479B70D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>669C0CB8-759F-912A-E81E-40E461EA819F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementStartWith>10</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>users_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="first_name" id="2708F5AC-9FB5-26AA-7BA3-FE9C003177BF">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>76B1A2DD-9E27-E48E-8AE7-2D0079999AF9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="A3F272CE-86E3-1A2F-1496-612DB455882D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>B123FF26-EF99-E832-409A-2B544E57849D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="81FEDB33-EE94-1860-02D6-B7325A4A3694">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>B7773F94-E8F9-80F6-B29D-F176ECFA85E7</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="AA5DD653-0A50-83D6-F108-F0E1AD0918CA">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>503E1334-5C0B-406C-508C-5C33AD10B570</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="D1CFA266-5855-8000-2375-9249457A9220">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>644FA945-B78E-D738-D427-30FB1A04DBA1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_date" id="AEAEA5EA-3C28-4048-C3FF-4E95FB7E18C9">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>07D5DBB6-68D7-80A7-64BA-A2CA2892A94E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>users_reg_date_default </constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_status" id="9EEA1492-23A2-861C-1BEE-EF6DEBCC2AE6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>D8045C2E-6260-50CA-C91E-D301FCE2D2E6</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>users_status_default</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<defaultValue>Active</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="99EB7C3E-8E77-B144-1A64-7B1380D4E450">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>02303723-8ABD-0777-DEF7-86114C81C1F8</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="ACA4245A-E5DA-87A9-0D9C-D4124DA6507D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 17:05:38 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68E2FE89-5329-1493-564B-7FEB35BC73E8" name="users_PK">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>45D27920-4E1A-6BCC-6522-53AC5F776089</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C30E709-D23D-A4F3-A3AB-1E85B479B70D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBFDB7CA-8ECB-1772-8FE6-090B8829EF38" name="users_email_phone_pass_UN">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>222EC9E1-66DD-252E-4316-3ABEA5245D9A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81FEDB33-EE94-1860-02D6-B7325A4A3694"/>
+<colUsage columnID="AA5DD653-0A50-83D6-F108-F0E1AD0918CA"/>
+<colUsage columnID="D1CFA266-5855-8000-2375-9249457A9220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFFFE0B4-8B5E-AF35-BF5F-BC82F204E969" name="idx_users_email_passw">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 15:44:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81FEDB33-EE94-1860-02D6-B7325A4A3694"/>
+<colUsage columnID="D1CFA266-5855-8000-2375-9249457A9220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="270E2D15-7E42-4DF3-85AD-5E7D91ADC654" name="idx_users_phone">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 15:44:27 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA5DD653-0A50-83D6-F108-F0E1AD0918CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_email_format" directorySegmentName="seg_0" id="0588E266-4969-99DC-B580-81AE1450965B">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 16:03:41 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(email LIKE '%@%')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_phone_format" directorySegmentName="seg_0" id="B06C15C6-BA62-37CA-21E6-AA4BAEBB8007">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 16:24:40 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[( REGEXP_LIKE(phone, '^[0-9]{9,15}$' ) )]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_role" directorySegmentName="seg_0" id="E756F5B4-182B-9D77-03CD-D27E2FF9C71A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 16:26:58 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(role IN ('Admin', 'Client'))]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_passw_length" directorySegmentName="seg_0" id="AFC412F0-BCFA-407F-BD95-9FC29F1D78A8">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 16:26:58 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(LENGTH(password) >= 8)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_status" directorySegmentName="seg_0" id="CB5CF65B-402F-3C4A-906F-F5AB384408BF">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 16:30:11 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(account_status IN ('Inactive', 'Active', 'Locked'))]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

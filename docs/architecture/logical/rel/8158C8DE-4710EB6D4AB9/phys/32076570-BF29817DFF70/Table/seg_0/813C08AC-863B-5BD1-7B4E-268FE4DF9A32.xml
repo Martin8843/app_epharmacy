@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="orders" directorySegmentName="seg_0" id="813C08AC-863B-5BD1-7B4E-268FE4DF9A32">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="order_date" id="39AA8260-D74E-846F-765A-F234B8FA305B">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="772C8A16-8834-073F-04A1-F1C9976731C8">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="order_status" id="A500A396-9C46-2FAB-91C3-800FC36DBCFF">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<defaultValue>PENDING</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="orders_ID" id="C12DA4B9-4B99-A5B1-124B-E0F7E8CC6780">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total_amount" id="CA2A8AA9-EE8D-2FD7-C9CD-F65B089743E9">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="notes" id="CBC6033F-3E59-CAF9-6017-C75F9BCBA9C6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="payment_id" id="D368BBDC-7E66-6856-F131-01711ECEE769">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_orders_order_date" id="0AB6676F-9F99-84E7-0553-CAA92500C73D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_orders_order_status" id="C7C7BDC5-B7A7-B105-DC76-552AF693FEE5">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_orders_user_id" id="E7FB2767-8797-9428-23D8-313723F06FAF">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="orders_payments_FK" id="19A40951-0192-66AB-6F6B-914C8650A8B0">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="orders_users_FK" id="9B24CF81-FCFC-5296-73AC-8AF3C2F4860D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="orders_PK" id="CACA0BDA-A18F-4EE8-2628-06F2260E62B0">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="orders_CKv2" id="5546706E-F108-B7F1-1B9E-28718761DCB8">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="orders_CKv1" id="83A75ECB-A45A-948F-CB6D-E952C71602E1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="orders_CK" id="E4BFDD42-56AA-8741-BD17-793C29CBEE54">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

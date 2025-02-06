@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="products" directorySegmentName="seg_0" id="148E11B7-E282-5FB9-25BF-51BCBB66E939">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="avail_status" id="06C999A3-E8AD-BC4E-F377-E3F979A42553">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<defaultValue>Available</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="prescription_req" id="37F0483D-2804-282E-E4E6-43C5A339D68A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="product_name" id="7C0FB381-FF1E-7620-AD8D-5D19CA68C4EC">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="869A1131-EE52-A268-E94E-2D20D7BAF06B">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="exp_date" id="93EAE0AE-25F6-094D-C479-3E61FCC42221">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="product_id" id="DAFC2797-EA75-0C1A-5D35-3CB0583F5B34">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="prod_cat_id" id="DF7EB8D2-87C4-BA53-C4EA-EB777BD9A9B1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="product_desc" id="FDDADE5A-BC18-F909-CFDD-5749D98773E4">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_prod_cat_id" id="3A071876-3C86-E43D-1478-3A15B5F2B952">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_products_name" id="B065B8A9-06AE-2FFE-C46D-0D27E8884860">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="idx_products_price" id="FE582DFF-AD6E-E818-A956-B167983A4892">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="products_product_categories_FK" id="D503083E-A32F-24FE-F1CC-A4FB149C261D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="products_PK" id="74F3CB84-1930-ED2B-BE28-B77573C9B6D1">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="chk_products_price" id="92A14826-5DE6-924F-0F66-D0EE38AE1FE6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_products_exp" id="9D81A2FE-99F9-6048-7C49-870CF643D07F">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_products_status" id="E150F444-4042-326B-0C5C-D7EEE6C4CD9A">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_products_name" id="EB799FED-8D5C-A337-07E3-CCD93580C388">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_products_desc" id="F0286D16-1D94-F8E2-0EDE-CC4AE0F67E81">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="chk_products_presc" id="FABCD138-FBC4-4B2C-D430-26739E3C3C47">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="products_name_UN" id="A6A43393-FDCD-1174-4DC2-77736CACC3C4">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-09 21:31:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

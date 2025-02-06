@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B4C7296-E8C0-C18D-F5A0-D58F9CD1377D" name="addresses">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<comment><![CDATA[The addresses table stores shipping addresses for users. It includes address_id, user_id, street_address, city, postal_code, country, and phone_number]]></comment>
+<generatorID>FEE71E0B-E115-0D47-259F-74A477602520</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="25724196-5C67-7DBA-63FB-F76EAEE4B5C6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>1E67C22B-7EA1-24F2-E5E2-2E2F593C27BD</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>0</autoIncrementCache>
+<autoIncrementSequenceName>addresses_seq</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="user_id" id="C9AA8BB4-5B4D-7FE7-FB9D-C6AC8EF18169">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>12B5C522-1891-94EE-F3C1-AE57474174DB</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F612E2E4-C8FC-1680-09B9-2B1393B88948" referredColumn="6C30E709-D23D-A4F3-A3AB-1E85B479B70D"/>
+</associations>
+</Column>
+<Column name="country" id="11DBFF9C-5372-9EE3-C124-3AEC195E2A88">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>C0B9CE97-F238-A834-0AF4-6A50B9D66B6F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="7D82A182-38B8-87B1-A350-95770C1961C6">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>13E38D47-FE4C-1AC5-D933-39A5F46AD0B2</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="post_code" id="EACDBD5D-8D83-830F-F735-4B0D9E64CD0D">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>84952170-4F45-4625-6E88-FBA5BA2DD8D1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_name" id="B29CB7B9-47BF-D139-A3FF-F682841460BD">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>B7E4AEF7-2CA4-8AAA-1BBA-1EDDD5C352C1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="house_no" id="94B2EDB4-8854-F469-D202-2991DD730962">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>2D585F02-42A5-C212-B978-12D8A5DCAA4C</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1706F775-BADE-A9E9-781A-02F6CD5382A2" name="addresses_PK">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>91694C28-703E-EB33-5624-F2BD2EC9356A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25724196-5C67-7DBA-63FB-F76EAEE4B5C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42C5CD2D-D5D2-4041-14CE-F5B1D9B4C467" name="address_per_user_UN">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 20:24:39 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AA8BB4-5B4D-7FE7-FB9D-C6AC8EF18169"/>
+<colUsage columnID="11DBFF9C-5372-9EE3-C124-3AEC195E2A88"/>
+<colUsage columnID="7D82A182-38B8-87B1-A350-95770C1961C6"/>
+<colUsage columnID="EACDBD5D-8D83-830F-F735-4B0D9E64CD0D"/>
+<colUsage columnID="B29CB7B9-47BF-D139-A3FF-F682841460BD"/>
+<colUsage columnID="94B2EDB4-8854-F469-D202-2991DD730962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02462AAC-DA06-9D20-8D77-C6DAC96C5D8A" name="idx_addresses_userid">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 09:20:20 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AA8BB4-5B4D-7FE7-FB9D-C6AC8EF18169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F55A980D-388D-38FA-8010-4604213723ED" name="idx_addresses_postalcode">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 09:20:20 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EACDBD5D-8D83-830F-F735-4B0D9E64CD0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8F51496-1ACB-98C2-4EB3-2EE32753B61A" name="addresses_users_FK">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 08:06:16 UTC</createdTime>
+<generatorID>4F86548B-0454-B8CE-4100-D505A8BA486E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AA8BB4-5B4D-7FE7-FB9D-C6AC8EF18169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_addresses_stname" directorySegmentName="seg_0" id="F53F9714-DB79-835F-0D79-484F0C935758">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 20:18:29 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(LENGTH(st_name) >= 2)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_addresses_city" directorySegmentName="seg_0" id="F430F1F5-8A7C-3D26-09FC-A05D661E8076">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 20:18:29 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(LENGTH(city) >= 2)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_addresses_country" directorySegmentName="seg_0" id="639324A2-C892-A144-DC12-175C182E3EE9">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 20:22:04 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(country IN ('PL', 'US', 'DE', 'FR', 'GB'))
+]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="chk_addresses_house_no" directorySegmentName="seg_0" id="B08CE264-2BCD-36BF-2D15-A15A8535BD43">
+<createdBy>neras</createdBy>
+<createdTime>2025-01-06 20:26:46 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<rule><![CDATA[(LENGTH(house_no) <= 20)
+]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
