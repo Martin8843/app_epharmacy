@@ -1,39 +1,39 @@
 
-# 🚧 Projekt w trakcie rozwoju 🚧
-Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.xxx
+# ?? Projekt w trakcie rozwoju ??
+Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 
 # app_epharmacy
-Aplikacja bazodanowa stworzona w Oracle APEX, umo偶liwiaj膮ca zarz膮dzanie produktami aptecznymi, zam贸wieniami oraz danymi u偶ytkownik贸w.
-Obejmuje model bazy danych w Data SQL Modeler, modu艂y PL/SQL, dane testowe oraz narz臋dzia pomocnicze wspieraj膮ce logik臋 biznesow膮 aplikacji
+Aplikacja bazodanowa stworzona w Oracle APEX, umo?liwiaj?ca zarz?dzanie produktami aptecznymi, zam?wieniami oraz danymi u?ytkownik?w.
+Obejmuje model bazy danych w Data SQL Modeler, modu?y PL/SQL, dane testowe oraz narz?dzia pomocnicze wspieraj?ce logik? biznesow? aplikacji
 
 # Dokumentacja projektu
 
-Folder zawiera okumentacj臋 techniczn膮 i u偶ytkow膮 projektu `app_epharmacy`.
+Folder zawiera okumentacj? techniczn? i u?ytkow? projektu `app_epharmacy`.
 
-## Struktura katalog贸w
+## Struktura katalog?w
 
 - `docs/`: Dokumentacja projektu.
   - `architecture/`: Dokumentacja architektury systemu, przechowuje m.in. diagram relacji encji.
-	- `data_model/`: Szczeg贸艂owy opis struktury danych, w tym definicje tabel, kolumn, typ贸w danych i kluczy. 
-  - `database/schemas/epharmacy/`: Dokumentacja bazy danych(schematy, opis tabel, funkcji, procedur sk艂adowanych).  
-  	- `constraints/`: Opis ogranicze艅 w bazie danych, kt贸re zapewniaj膮 integralno艣膰 i sp贸jno艣膰. 
-  	- `functions/`: Dokumentacja funkcji (zastosowanie, zwracane warto艣ci) 
-  	- `indexes/`: Opisy indeks贸w i ich wp艂ywu na wydajno艣膰. 
-  	- `packages/`: Opisy pakiet贸w PL/SQL (zawarto艣膰, interfejsy). 
-  	- `procedures/`: Opisy procedur (parametry, dzia艂anie). 
-  	- `sequences/`: Opis sekwencji (je偶eli istniej膮) 
-  	- `tables/`:  Opisy tabel (struktura, kolumny, zale偶no艣ci).  
-  	- `triggers/`: Dokumentacja trigger贸w (kiedy i dlaczego s膮 u偶ywane). 
-  	- `views/`: Opisy widok贸w i ich zastosowania. 
-  - `deployment_apex/`: Instrukcje dotycz膮ce wdra偶ania aplikacji (m.in. integracja z Oracle APEX 鈥?ORDS).
-- `database/schemas/epharmacy/`: Przechowuje skrypty, dane testowe oraz modu艂y PL/SQL, co jest niezb臋dne do prawid艂owego funkcjonowania aplikacji.
-  	- `constraints/`: Skrypty dla kluczy obcych i ogranicze艅. 
+	- `data_model/`: Szczeg??owy opis struktury danych, w tym definicje tabel, kolumn, typ?w danych i kluczy. 
+  - `database/schemas/epharmacy/`: Dokumentacja bazy danych(schematy, opis tabel, funkcji, procedur sk?adowanych).  
+  	- `constraints/`: Opis ogranicze? w bazie danych, kt?re zapewniaj? integralno?? i sp?jno??. 
+  	- `functions/`: Dokumentacja funkcji (zastosowanie, zwracane warto?ci) 
+  	- `indexes/`: Opisy indeks?w i ich wp?ywu na wydajno??. 
+  	- `packages/`: Opisy pakiet?w PL/SQL (zawarto??, interfejsy). 
+  	- `procedures/`: Opisy procedur (parametry, dzia?anie). 
+  	- `sequences/`: Opis sekwencji (je?eli istniej?) 
+  	- `tables/`:  Opisy tabel (struktura, kolumny, zale?no?ci).  
+  	- `triggers/`: Dokumentacja trigger?w (kiedy i dlaczego s? u?ywane). 
+  	- `views/`: Opisy widok?w i ich zastosowania. 
+  - `deployment_apex/`: Instrukcje dotycz?ce wdra?ania aplikacji (m.in. integracja z Oracle APEX ??ORDS).
+- `database/schemas/epharmacy/`: Przechowuje skrypty, dane testowe oraz modu?y PL/SQL, co jest niezb?dne do prawid?owego funkcjonowania aplikacji.
+  	- `constraints/`: Skrypty dla kluczy obcych i ogranicze?. 
   	- `functions/`: Funkcje PL/SQL (CREATE FUNCTION). 
-  	- `indexes/`: Skrypty dla indeks贸w (CREATE INDEX). 
-  	-  (...)    : Skrypty dla pozosta艂ych obiekt贸w bazy danych.
-  - `test_data/`: Zawiera skrypty do wype艂niania tabel przyk艂adowymi danymi testowymi.
-  - `utilities/`: Zawiera skrypty pomocnicze wspieraj膮ce dzia艂anie bazy danych (obs艂uga log贸w, funkcje szyfrowania) .  
+  	- `indexes/`: Skrypty dla indeks?w (CREATE INDEX). 
+  	-  (...)    : Skrypty dla pozosta?ych obiekt?w bazy danych.
+  - `test_data/`: Zawiera skrypty do wype?niania tabel przyk?adowymi danymi testowymi.
+  - `utilities/`: Zawiera skrypty pomocnicze wspieraj?ce dzia?anie bazy danych (obs?uga log?w, funkcje szyfrowania) .  
 - `apex/`: Przechowuje komponenty aplikacji.
-  - `applications/`: Zawiera skrypty eksportuj膮ce definicje aplikacji APEX.  
+  - `applications/`: Zawiera skrypty eksportuj?ce definicje aplikacji APEX.  
   - `static_files/`: Zawiera pliki statyczne wykorzystywane w aplikacji.  
-  - `plugins/`: Zawiera skrypty definiuj膮ce niestandardowe pluginy dla aplikacji APEX.
+  - `plugins/`: Zawiera skrypty definiuj?ce niestandardowe pluginy dla aplikacji APEX.
