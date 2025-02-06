@@ -12,7 +12,7 @@ Obejmuje model bazy danych w Data SQL Modeler, modu艂y PL/SQL, dane testowe ora
 
 # Dokumentacja projektu
 
-Folder zawiera dokumentacj臋 techniczn膮 i u偶ytkow膮 projektu `app_epharmacy`.
+Folder zawiera okumentacj臋 techniczn膮 i u偶ytkow膮 projektu `app_epharmacy`.
 
 ## Struktura katalog贸w
 
