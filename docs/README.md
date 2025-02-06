@@ -37,7 +37,3 @@ Folder zawiera okumentacj臋 techniczn膮 i u偶ytkow膮 projektu `app_epharmacy
   - `applications/`: Zawiera skrypty eksportuj膮ce definicje aplikacji APEX.  
   - `static_files/`: Zawiera pliki statyczne wykorzystywane w aplikacji.  
   - `plugins/`: Zawiera skrypty definiuj膮ce niestandardowe pluginy dla aplikacji APEX.
-
- 
-  
->>>>>>> 4b40ff84b206f60afc0a9085ce81833d59ac2efa
