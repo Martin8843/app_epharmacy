@@ -5,6 +5,17 @@ Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i 
 Aplikacja bazodanowa stworzona w Oracle APEX, umożliwiająca zarządzanie produktami aptecznymi, zamówieniami oraz danymi użytkowników.
 Obejmuje model bazy danych w Data SQL Modeler, moduły PL/SQL, dane testowe oraz narzędzia pomocnicze wspierające logikę biznesową aplikacji
 
+# Technologie
+W projekcie wykorzystane są technologie:
+
+Oracle Database Express Edition 21c – serwer bazy danych, idealny dla małych i średnich projektów, darmowy i wydajny.
+SQL Developer – narzędzie do tworzenia obiektów w bazie danych Oracle (tabele, procedury, funkcje).
+SQL Data Modeler – narzędzie do projektowania bazy danych, od modelu logicznego po fizyczny (generowanie DDL).
+Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
+Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
+Oracle APEX (wersja Web) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
+- Oracle REST Data Services (ORDS) – narzędzie do integracji bazy danych Oracle z aplikacjami webowymi, umożliwiające tworzenie RESTful Web Services, które pozwalają na łatwą wymianę danych pomiędzy bazą a platformą Oracle APEX.
+
 # Dokumentacja projektu
 
 Folder zawiera dokumentację techniczną i użytkową projektu: `app_epharmacy`.
