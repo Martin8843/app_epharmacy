@@ -2,14 +2,16 @@
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 
 # app_epharmacy
-Aplikacja bazodanowa stworzona w Oracle APEX, umożliwiająca zarządzanie produktami aptecznymi, zamówieniami oraz danymi użytkowników.
+Aplikacja bazodanowa umożliwiająca zarządzanie produktami aptecznymi, zamówieniami oraz danymi użytkowników.
 Obejmuje model bazy danych w Data SQL Modeler, moduły PL/SQL, dane testowe oraz narzędzia pomocnicze wspierające logikę biznesową aplikacji
 
 # Technologie
 W projekcie wykorzystane są technologie:
 
 Oracle Database Express Edition 21c – serwer bazy danych, idealny dla małych i średnich projektów, darmowy i wydajny.
+
 SQL Developer – narzędzie do tworzenia obiektów w bazie danych Oracle (tabele, procedury, funkcje).
+
 SQL Data Modeler – narzędzie do projektowania bazy danych, od modelu logicznego po fizyczny (generowanie DDL).
 Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
 Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
