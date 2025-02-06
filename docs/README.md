@@ -1,7 +1,4 @@
 
-# 馃毀 Projekt w trakcie rozwoju 馃毀
-Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstaj膮 nowe funkcjonalno艣ci oraz pakiety pl/sql. Rozpocz臋ta integracja z APEX.
-=======
 # 🚧 Projekt w trakcie rozwoju 🚧
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.xxx
 >>>>>>> 8092fe3655c98ff85114a578b4b63b4836a39239
