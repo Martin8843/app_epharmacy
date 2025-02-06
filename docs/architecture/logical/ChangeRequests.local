@@ -1,4 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.Design>
-   <object objectType="ChangeRequest" objectID="654D07D6-3A9E-DB3F-103A-36B37A441ACA" name="Request_1" seqName="" propertyClassName="oracle.dbtools.crest.model.ChangeRequest" propertyParentId="33F71AA3-0187-39E3-B92A-02A4AF5E517E" propertySourceId="" propertyTargetId=""/>
-</oracle.dbtools.crest.model.design.Design>
