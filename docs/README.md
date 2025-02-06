@@ -1,7 +1,7 @@
 
 # 🚧 Projekt w trakcie rozwoju 🚧
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.xxx
->>>>>>> 8092fe3655c98ff85114a578b4b63b4836a39239
+
 # app_epharmacy
 Aplikacja bazodanowa stworzona w Oracle APEX, umo偶liwiaj膮ca zarz膮dzanie produktami aptecznymi, zam贸wieniami oraz danymi u偶ytkownik贸w.
 Obejmuje model bazy danych w Data SQL Modeler, modu艂y PL/SQL, dane testowe oraz narz臋dzia pomocnicze wspieraj膮ce logik臋 biznesow膮 aplikacji
