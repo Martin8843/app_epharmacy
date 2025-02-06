@@ -1,10 +1,3 @@
-
-# 馃毀 Projekt w trakcie rozwoju 馃毀
-Ten projekt jest nadal w fazie rozwoju. Powstaj膮 nowe funkcjonalno艣ci oraz pakiety pl/sql. Rozpocz臋ta integracja z APEX.
-
-# app_epharmacy
-app_epharmacy to aplikacja webowa oparta na Oracle APEX, zaprojektowana do zarz膮dzania operacjami apteki. Implementacja odbywa si臋 w Oracle DB 21c XE za pomoc膮 PL/SQL, a rozw贸j jest kontynuowany w APEX. Projekt obejmuje model bazy danych w Data SQL Modeler, modu艂y PL/SQL, dane testowe oraz narz臋dzia pomocnicze wspieraj膮ce logik臋 biznesow膮 aplikacji
-
 # 🚧 Projekt w trakcie rozwoju 🚧
 Ten projekt jest nadal w fazie rozwoju. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE
