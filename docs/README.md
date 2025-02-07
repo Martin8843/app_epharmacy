@@ -1,4 +1,5 @@
 ﻿# 🚧 Projekt w trakcie rozwoju 🚧
+# 🚧 STATUS --> w trakcie tworzenia REST API w ORDS🚧
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 
 # app_epharmacy
@@ -14,7 +15,7 @@ W projekcie wykorzystane są technologie:
 - Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
 - Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
 - Oracle APEX (wersja Web) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
-	- Oracle REST Data Services (ORDS) – narzędzie do integracji bazy danych Oracle z aplikacjami webowymi, umożliwiające tworzenie RESTful Web 		  Services, które pozwalają na łatwą wymianę danych pomiędzy bazą a platformą Oracle APEX.
+	- Oracle REST Data Services (ORDS) – narzędzie do integracji bazy danych Oracle z aplikacjami webowymi, ORDS działa jako serwer REST, który pozwala APEX łączyć się z Oracle DB.
 
 # Dokumentacja projektu
 
