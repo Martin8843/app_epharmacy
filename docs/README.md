@@ -15,7 +15,7 @@ W projekcie wykorzystane są technologie:
 - Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
 - Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
 - Oracle APEX (wersja Web) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
-	- Oracle REST Data Services (ORDS) – narzędzie do integracji bazy danych Oracle z aplikacjami webowymi, umożliwiające tworzenie RESTful Web 		  Services, które pozwalają na łatwą wymianę danych pomiędzy bazą a platformą Oracle APEX.
+	- Oracle REST Data Services (ORDS) – narzędzie do integracji bazy danych Oracle z aplikacjami webowymi, umożliwiające tworzenie RESTful WebServices, pośredniczy w komunikacji.
 
 # Dokumentacja projektu
 
