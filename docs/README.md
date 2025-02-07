@@ -1,5 +1,5 @@
 ﻿# 🚧 Projekt w trakcie rozwoju 🚧
-# 🚧 Etap prac --> utworzenie REST API w ORDS🚧
+# 🚧 STATUS --> w trakcie tworzenia REST API w ORDS🚧
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 
 # app_epharmacy
