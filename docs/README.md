@@ -39,6 +39,7 @@ Folder zawiera dokumentację techniczną i użytkową projektu: `app_epharmacy`.
   	- `triggers/`: Dokumentacja triggerów (kiedy i dlaczego są używane). 
   	- `views/`: Opisy widoków i ich zastosowania. 
   - `deployment_apex/`: Instrukcje dotyczące wdrażania aplikacji (m.in. integracja z Oracle APEX ORDS).
+  - `other_docs`: inna dokumentacja np. instrukcja pracy w Git.  
 - `database/schemas/epharmacy/`: Przechowuje skrypty, dane testowe oraz moduły PL/SQL, co jest niezbędne do prawidłowego funkcjonowania aplikacji.
   	- `constraints/`: Skrypty dla kluczy obcych i ograniczeń. 
   	- `functions/`: Funkcje PL/SQL (CREATE FUNCTION). 
