@@ -15,7 +15,7 @@ W projekcie wykorzystane zostały:
 - Postman - narzędzie do testowania i wysyłania zapytań HTTP do API. Postman łączy się tylko z API (np. REST API udostępnionym przez ORDS). 
 - Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
 - Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
-- Oracle APEX (wersja Web) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
+- Oracle APEX (wersja 24.1.7.) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
 	- Oracle REST Data Services (ORDS) – serwer, który wystawia API, narzędzie do integracji bazy danych Oracle z aplikacjami webowymi
    
 
