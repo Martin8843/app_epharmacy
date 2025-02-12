@@ -2,7 +2,7 @@
 # 🚧 STATUS --> w trakcie udostępniania API przez ORDS🚧
 Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
 
-# app_epharmacy
+# E-Pharmacy
 Aplikacja bazodanowa umożliwiająca zarządzanie produktami aptecznymi, zamówieniami oraz danymi użytkowników.
 Obejmuje model bazy danych w Data SQL Modeler, moduły PL/SQL, dane testowe oraz narzędzia pomocnicze wspierające logikę biznesową aplikacji
 
