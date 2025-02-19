@@ -15,8 +15,9 @@ BEGIN
 END trg_update_product_status;
 
 
-
+/*
 UPDATE order_details
 SET ord_qnty = ord_qnty + 20
 WHERE product_id = 16
 AND order_id=180;
+*\

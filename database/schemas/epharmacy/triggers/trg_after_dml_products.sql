@@ -22,8 +22,7 @@ EXCEPTION
         WHEN OTHERS THEN
             log_event(
                 p_log_type     => 'ERROR',
-                p_log_details  => 'Błąd podczas próby logowania zmian w tabeli products: ' || SQLERRM,
-				);
+                p_log_details  => 'Błąd podczas próby logowania zmian w tabeli products: ' || SQLERRM);
             -- Przerwanie wykonania operacji w przypadku błędu
             RAISE;
 END trg_after_dml_products;
