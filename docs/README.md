@@ -1,6 +1,6 @@
 ﻿# 🚧 Projekt w trakcie rozwoju 🚧
-# 🚧 STATUS --> w trakcie udostępniania API przez ORDS🚧
-Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql. Rozpoczęta integracja z APEX.
+# 🚧 status: Implementacja w APEX🚧
+Ten projekt jest nadal w fazie rozwoju. Projekt rozwijany w ramach nauki APEX i baz danych Oracle XE. Powstają nowe funkcjonalności oraz pakiety pl/sql.
 
 # E-Pharmacy
 Aplikacja bazodanowa umożliwiająca zarządzanie produktami aptecznymi, zamówieniami oraz danymi użytkowników.
@@ -12,12 +12,9 @@ W projekcie wykorzystane zostały:
 - Oracle Database Express Edition 21c – serwer bazy danych, idealny dla małych i średnich projektów, darmowy i wydajny.
 - SQL Developer – narzędzie do tworzenia obiektów w bazie danych Oracle (tabele, procedury, funkcje).
 - SQL Data Modeler – narzędzie do projektowania bazy danych, od modelu logicznego po fizyczny (generowanie DDL).
-- Postman - narzędzie do testowania i wysyłania zapytań HTTP do API. Postman łączy się tylko z API (np. REST API udostępnionym przez ORDS). 
 - Notepad++ – edytor tekstowy do skryptów SQL, procedur i plików konfiguracyjnych.
 - Git i Git Bash – używane do zarządzania projektem i synchronizacji zmian z repozytorium GitHub.
-- Oracle APEX (wersja 24.1.7.) - platforma do tworzenia aplikacji webowych opartych na bazie danych Oracle
-	- Oracle REST Data Services (ORDS) – serwer, który wystawia API, narzędzie do integracji bazy danych Oracle z aplikacjami webowymi
-   
+- Oracle APEX (wersja 24.1.7.) - platforma chmurowa do tworzenia aplikacji webowych opartych na bazie danych Oracle   
 
 # Dokumentacja projektu
 
